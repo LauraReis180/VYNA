@@ -19,7 +19,7 @@
             <button><i class="fas fa-search"></i></button>
         </div>
         <div class="icons">
-            <a href="/pages/login.php" title="Minha Conta"><i class="fas fa-user"></i></a>
+            <a href="#" title="Minha Conta"><i class="fas fa-user"></i></a>
             <a href="#" title="Sacola de Compras"><i class="fas fa-shopping-bag"></i></a>
             <a href="#" title="Favoritos"><i class="fas fa-heart"></i></a>
             <a href="#" title="Configurações"><i class="fas fa-cog"></i></a>
