@@ -9,7 +9,11 @@
     <!-- Ícones Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- CSS -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="./styles/all.css">
+=======
+    <link rel="stylesheet" href="style.css">
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
 </head>
 <body>
     <header>
@@ -19,10 +23,17 @@
             <button><i class="fas fa-search"></i></button>
         </div>
         <div class="icons">
+<<<<<<< HEAD
             <a href="/pages/login.php" title="Minha Conta"><i class="fas fa-user"></i></a>
             <a href="#" title="Sacola de Compras"><i class="fas fa-shopping-bag"></i></a>
             <a href="#" title="Favoritos"><i class="fas fa-heart"></i></a>
             <a href="#" title="Configurações"><i class="fas fa-cog"></i></a>
+=======
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
         </div>
     </header>
 
@@ -31,13 +42,21 @@
     </div>
 
     <div class="category-bar">
+<<<<<<< HEAD
         <a href="#" class="icon-btn" title="Acessibilidade"><i class="fas fa-universal-access"></i></a>
+=======
+        <i class="fas fa-universal-access"></i>
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
         <button>BOLSAS</button>
         <button>ÓCULOS DE SOL</button>
         <button>COLARES</button>
         <button>ANEIS</button>
         <button>PULSEIRAS</button>
+<<<<<<< HEAD
         <a href="#" class="icon-btn" title="Ajuda"><i class="fas fa-question-circle"></i></a>
+=======
+        <i class="fas fa-question-circle"></i>
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     </div>
 
     <!-- Banner -->
@@ -47,6 +66,7 @@
 
     <!-- Filtros -->
     <div class="filter-bar">
+<<<<<<< HEAD
         <div class="dropdown">
             <button class="filter-btn">Ordenar <i class="fas fa-chevron-down"></i></button>
             <div class="dropdown-content">
@@ -64,6 +84,10 @@
                 <a href="#">Preço Decrescente</a>
             </div>
         </div>
+=======
+        <button class="filter-btn">Filtro 1</button>
+        <button class="filter-btn">Filtro 2</button>
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     </div>
 
     <!-- Produtos -->

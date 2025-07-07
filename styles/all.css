@@ -14,7 +14,11 @@
 }
 
 body {
+<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
+=======
+    font-family: 'Cinzel Decorative', serif;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     background-color: var(--bege-suave);
     color: var(--preto);
 }
@@ -22,15 +26,24 @@ body {
 header {
     background-color: var(--bege-suave);
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
     gap: 250px; /* separação maior entre logo, barra e ícones */
     padding: 10px 50px;
+=======
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     border-bottom: 1px solid var(--nude-amendoado);
 }
 
 .logo {
+<<<<<<< HEAD
     font-family: 'Cinzel Decorative', cursive;
+=======
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--preto);
@@ -39,6 +52,7 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     border: 1px solid var(--nude-amendoado);
     border-radius: 5px;
     overflow: hidden;
@@ -50,18 +64,33 @@ header {
     border: none;
     width: 100%;
     font-size: 1rem;
+=======
+    gap: 5px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid var(--nude-amendoado);
+    border-radius: 3px;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
 }
 
 .search-bar button {
     background-color: var(--branco-puro);
+<<<<<<< HEAD
     border: none;
     padding: 10px 15px;
+=======
+    border: 1px solid var(--nude-amendoado);
+    padding: 5px 10px;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     cursor: pointer;
 }
 
 .icons {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     gap: 14px; /* ícones mais próximos entre si */
 }
 
@@ -74,14 +103,26 @@ header {
 
 .icons a:hover {
     color: var(--rose-claro);
+=======
+    gap: 15px;
+    font-size: 1.2rem;
+}
+
+.icons i {
+    cursor: pointer;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
 }
 
 .promo-bar {
     background-color: var(--nude-amendoado);
     color: var(--preto);
     text-align: center;
+<<<<<<< HEAD
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+=======
+    font-weight: bold;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
     padding: 5px;
     font-size: 0.95rem;
 }
@@ -101,6 +142,7 @@ header {
     background-color: var(--branco-puro);
     border: 1px solid var(--nude-amendoado);
     border-radius: 20px;
+<<<<<<< HEAD
     padding: 6px 20px;
     cursor: pointer;
     font-size: 1rem;
@@ -193,6 +235,17 @@ header {
 .dropdown-content a:hover {
     background-color: var(--rose-claro);
     color: var(--branco-puro);
+=======
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: #d3d3d3; /* Cinza placeholder */
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
 }
 
 .product-section {
@@ -201,12 +254,16 @@ header {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+<<<<<<< HEAD
     max-width: 1200px;
     margin: 0 auto;
+=======
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
 }
 
 .product-card {
     width: 200px;
+<<<<<<< HEAD
     border: 1px solid var(--nude-amendoado);
     border-radius: 5px;
     background-color: var(--branco-puro);
@@ -229,4 +286,25 @@ header {
 .product-card p {
     color: var(--nude-amendoado);
     font-weight: bold;
+=======
+    height: 300px;
+    background-color: #d3d3d3; /* Cinza placeholder */
+    border: 1px solid var(--nude-amendoado);
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.button-group button {
+    background-color: var(--bege-suave);
+    border: 1px solid var(--preto);
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+>>>>>>> a487285c8e46a46aa301dbf65827bf1dd9deaff1
 }
